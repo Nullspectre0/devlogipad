@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devlogipad | Flexible notepad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Special+Elite&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="head">Devlogipad</h1>
+    </header>
+
+    <main>
+        <section id="info">
+            <div class="holder">
+                <div class="uppertitle">
+                    <h3>The Notebook of a developer</h3>
+                </div>
+
+                <div class="summary">
+                    <p>The Notebook of a Developer
+
+                        Devlogipad is a lightweight notebook
+                        made for developers.</p>
+
+                    <ul>
+                        <li>Autosaves notes</li>
+                        <li>Export as TXT</li>
+                        <li>Offline support</li>
+                        <li>Fast editing</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="pad">
+
+            <div class="toolbar">
+                <button id="clearBtn">🗑 - Clear</button>
+                <button id="saveBtn">💾 - Save</button>
+                <button id="downloadBtn">⬇ - Download</button>
+            </div>
+
+            <textarea id="note" placeholder="Start writing...
+- API Endpoints
+- TODO
+- Bug Ideas
+- Regex
+- Passwords (please don't)
+- Notes...
+"></textarea>
+
+            <div class="stats">
+                <span id="wordCount">Words: 0</span>
+                •
+                <span id="charCount">Characters: 0</span>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer>
+        Built by NullSpectre • HTML • CSS • JavaScript
+    </footer>
+</body>
+
+</html>
